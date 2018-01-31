@@ -8,8 +8,10 @@ assignment1/.ipynb_checkpoints/
 assignment2/.env/
 assignment2/.ipynb_checkpoints/
 assignment2/cs231n/datasets/cifar-10-batches-py/
+assignment2/cs231n/build/*
 assignment3/.env/
 assignment3/.ipynb_checkpoints/
 assignment3/cs231n/datasets/coco_captioning/
 assignment3/cs231n/datasets/tiny-imagenet-100-A/
 assignment3/cs231n/datasets/pretrained_model.h5
+assignment3/cs231n/build/*
