@@ -1,5 +1,4 @@
-# Assignements for Stanford course cs231n Convolutional Neural Networks for Visual Recognition
-http://cs231n.stanford.edu/2016/syllabus
+# Assignements for Stanford course cs231n Convolutional Neural Networks for Visual Recognition http://cs231n.stanford.edu/2016/syllabus
 ##  Notebooks describe tasks, contain the code, references to the code in other modules.
 
 ## Assignement 1:
