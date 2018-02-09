@@ -1,4 +1,6 @@
 # Assignements for Stanford course cs231n Convolutional Neural Networks for Visual Recognition
+http://cs231n.stanford.edu/2016/syllabus
+##  Notebooks describe tasks, contain the code, references to the code in other modules.
 
 ## Assignement 1:
 ### How to run code
@@ -26,7 +28,7 @@ jupyter notebook
 ```
 ### Note: for Mac OS X run ./start_ipython_osx.sh instead of jupyter notebook
 ### 5. open browser at localhost:8888/
-### 6. Run notebooks. Notebooks describe tasks, contain the code, references to the code in other modules.
+### 6. Run notebooks.
 
 ## Assignement 2:
 ### How to run code
