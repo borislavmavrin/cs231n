@@ -1,52 +1,95 @@
 # Assignements for Stanford course cs231n Convolutional Neural Networks for Visual Recognition
 
 ## Assignement 1:
- 1. cd assignment1
- 2. pip2 install virtualenv      	 # This may already be installed
- 3. virtualenv .env                  # Create a virtual environment
- 4. source .env/bin/activate         # Activate the virtual environment
- 5. pip2 install -r requirements.txt # Install requirements
- 6. cd cs231n/datasets
- 7. ./get_datasets.sh                # download dataset
- 8. cd assignment1/cs231n
- 9. cd assignment1
- 10. jupyter notebook
- Note: for Mac OS X run ./start_ipython_osx.sh instead of jupyter notebook
- 11. open browser at localhost:8888/
- 12. Run notebooks
+### How to run code
+#### 1. Install and activate virtual environment:
+```bash
+cd assignment1
+pip2 install virtualenv
+virtualenv .env
+source .env/bin/activate
+```
+#### 2. Install dependencies:
+```
+pip2 install -r requirements.txt
+```
+#### 3. Download data:
+```bash
+cd cs231n/datasets
+./get_datasets.sh
+cd assignment1/cs231n
+```
+#### 4. Run jupyter:
+```bash
+cd assignment1
+jupyter notebook
+```
+### Note: for Mac OS X run ./start_ipython_osx.sh instead of jupyter notebook
+### 5. open browser at localhost:8888/
+### 6. Run notebooks. Notebooks describe tasks, contain the code, references to the code in other modules.
 
 ## Assignement 2:
- 1. cd assignment2
- 2. pip2 install virtualenv      	 # This may already be installed
- 3. virtualenv .env                  # Create a virtual environment
- 4. source .env/bin/activate         # Activate the virtual environment
- 5. pip2 install -r requirements.txt # Install requirements
- 6. cd cs231n/datasets
- 7. ./get_datasets.sh                # download dataset
- 8. cd assignment2/cs231n
- 9. python2 setup.py build_ext --inplace # build C code
- 10. cd assignment2
- 11. jupyter notebook
- Note: for Mac OS X run ./start_ipython_osx.sh instead of jupyter notebook
- 12. open browser at localhost:8888/
+### How to run code
+#### 1. Install and activate virtual environment:
+```bash
+cd assignment2
+pip2 install virtualenv
+virtualenv .env
+source .env/bin/activate
+```
+#### 2. Install dependencies:
+```
+pip2 install -r requirements.txt
+```
+#### 3. Download data:
+```bash
+cd cs231n/datasets
+./get_coco_captioning.sh
+./get_tiny_imagenet_a.sh
+./get_pretrained_model.sh
+```
+#### 4. Build Cython modules:
+```
+cd assignment2/cs231n
+python2 setup.py build_ext --inplace # build C code
+```
+#### 5. Run jupyter:
+```bash
+cd assignment2
+jupyter notebook
+```
+#### 6. Note: for Mac OS X run ./start_ipython_osx.sh instead of jupyter notebook
+#### 7. open browser at localhost:8888/
 
 ## Assignement 3:
- 1. cd assignment2
- 2. pip2 install virtualenv      	 # This may already be installed
- 3. virtualenv .env                  # Create a virtual environment
- 4. source .env/bin/activate         # Activate the virtual environment
- 5. pip2 install -r requirements.txt # Install requirements
- 6. cd cs231n/datasets
- 7. ./get_coco_captioning.sh
-	./get_tiny_imagenet_a.sh
-	./get_pretrained_model.sh                # download dataset
- 8. cd assignment2/cs231n
- 9. python2 setup.py build_ext --inplace # build C code
- 10. cd assignment2
- 11. jupyter notebook
- Note: for Mac OS X run ./start_ipython_osx.sh instead of jupyter notebook
- 12. open browser at localhost:8888/
- 13. Run notebooks
- 13. Run notebooks
+### How to run code
+#### 1. Install and activate virtual environment:
+```bash
+cd assignment3
+pip2 install virtualenv
+virtualenv .env
+source .env/bin/activate
+```
+#### 2. Install dependencies:
+```
+pip2 install -r requirements.txt
+```
+#### 3. Download data:
+```bash
+cd cs231n/datasets
+./get_datasets.sh                # download dataset
+```
+#### 4. Build Cython modules:
+```
+cd assignment3/cs231n
+python3 setup.py build_ext --inplace # build C code
+```
+#### 5. Run jupyter:
+```bash
+cd assignment3
+jupyter notebook
+```
+#### 6. Note: for Mac OS X run ./start_ipython_osx.sh instead of jupyter notebook
+#### 7. open browser at localhost:8888/
 
 
